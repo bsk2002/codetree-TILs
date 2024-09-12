@@ -14,11 +14,12 @@ int main() {
         }
     }
 
-    int result = 0;
     int max = 0;
-
+    int result;
     for(int i = 0; i <= n-3; i++){
         for(int j = 0; j <= n-3; j++){
+            result = 0;
+            
             result += arr[i][j];
             result += arr[i][j+1];
             result += arr[i][j+2];

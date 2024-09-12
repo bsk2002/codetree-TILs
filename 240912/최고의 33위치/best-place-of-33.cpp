@@ -7,10 +7,11 @@ int main() {
     cin >> n;
 
     vector<vector<int>> arr(n, vector<int>(n,0));
-
+    int tmp;
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
-            cin >> arr[i][j];
+            cin >> tmp;
+            arr[i][j] = tmp;
         }
     }
 

@@ -7,7 +7,7 @@ int n, m;
 int cal(int n, int m) {
     int counter = 2;
     int result = 0;
-    while ( counter > n || counter > m) {
+    while ( counter < n || counter < m) {
         if(n % counter == 0 && m % counter == 0) {
             result = counter;
         }

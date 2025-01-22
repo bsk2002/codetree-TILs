@@ -16,6 +16,8 @@ int main() {
     cin >> a >> b;
 
     int res = 0;
+    int i;
+    if(a == 1) a = 2;
     for(int i = a; i <= b; i++) {
         if(isPrimeNum(i)) res += i;
     }

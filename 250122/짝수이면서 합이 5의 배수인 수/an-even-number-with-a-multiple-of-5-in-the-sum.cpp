@@ -7,7 +7,7 @@ int n;
 bool isMagicNum(int n) {
     int tmp = 0;
     tmp = (n % 10) + (n / 10);
-    if(tmp % 5 == 0)
+    if(tmp % 5 == 0 && n % 2 == 0)
         return true;
     else
         return false;
@@ -18,7 +18,7 @@ int main() {
 
     if(isMagicNum(n))
         cout << "Yes";
-        else
+    else
         cout << "No";
     return 0;
 }

@@ -7,7 +7,7 @@ int a[100], b[100];
 
 bool findArr(int n) {
     for(int i = 0; i < n2; i++) {
-        if(a[n++] != b[i] || n >= n1)
+        if(a[n++] != b[i] || n > n1)
             return false;
     }
     return true;

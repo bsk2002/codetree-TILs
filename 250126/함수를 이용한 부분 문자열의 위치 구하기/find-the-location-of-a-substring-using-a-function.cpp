@@ -20,7 +20,9 @@ int fun() {
         }else {
             idx = -1;
             cnt = 0;
-            i--;
+            if(text[i] == pattern[0]) {
+                i--;
+            }
         }
    }
 

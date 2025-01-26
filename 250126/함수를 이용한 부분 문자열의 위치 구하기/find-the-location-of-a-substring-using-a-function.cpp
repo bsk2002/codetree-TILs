@@ -20,6 +20,7 @@ int fun() {
         }else {
             idx = -1;
             cnt = 0;
+            i--;
         }
    }
 

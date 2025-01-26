@@ -12,7 +12,7 @@ int fun() {
    int cnt = 0;
 
    for(int i = 0; i < text.length(); i++) {
-        if(cnt > pattern.length()) break;
+        if(cnt >= pattern.length()) break;
         
         if(text[i] == pattern[cnt]) {
             cnt++;
